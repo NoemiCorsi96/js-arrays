@@ -60,4 +60,4 @@ if (teachers.length == 0) {
   console.log(isTeachersEmpty);
 }
 
-
+// L'ultimo esercizio credo si possa fare meglio, ovvero in modo più compatto.. 
