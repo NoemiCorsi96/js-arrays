@@ -62,4 +62,17 @@ console.log(isFabioPresent);
 
 
 // 5. Unisci tutti gli insegnanti nell'array teachers in una stringa  separata da virgole e salvala nella variabile teachersString
-const teachersString = null;
+/* Il risultato finale deve essere una stringa, 
+devo scorrere all'interno dell'array e copiarmi tutti i valori all'interno di una stringa
+
+ */
+let teachersString = '';
+
+for (let i = 0; i < teachers.length; i++) {
+  if (i < teachers.length - 1) {
+    teachersString = teachersString + teachers[i] + ',';
+  } else teachersString = teachersString + teachers[i]
+}
+
+console.log(teachersString);
+console.log(typeof teachersString);
